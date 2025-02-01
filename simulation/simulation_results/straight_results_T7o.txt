@@ -1,0 +1,30 @@
+Straight probability results for T7o (25 runs of 10000 simulations each):
+
+Run 1: 0.0656
+Run 2: 0.0684
+Run 3: 0.0630
+Run 4: 0.0698
+Run 5: 0.0661
+Run 6: 0.0653
+Run 7: 0.0644
+Run 8: 0.0681
+Run 9: 0.0700
+Run 10: 0.0699
+Run 11: 0.0641
+Run 12: 0.0664
+Run 13: 0.0645
+Run 14: 0.0636
+Run 15: 0.0630
+Run 16: 0.0633
+Run 17: 0.0645
+Run 18: 0.0673
+Run 19: 0.0638
+Run 20: 0.0694
+Run 21: 0.0641
+Run 22: 0.0684
+Run 23: 0.0694
+Run 24: 0.0624
+Run 25: 0.0677
+
+Average Probability: 0.0661
+Gap: 3

@@ -1,0 +1,30 @@
+Straight probability results for 65o (25 runs of 10000 simulations each):
+
+Run 1: 0.0977
+Run 2: 0.0885
+Run 3: 0.0967
+Run 4: 0.0964
+Run 5: 0.0971
+Run 6: 0.0909
+Run 7: 0.0896
+Run 8: 0.0944
+Run 9: 0.0927
+Run 10: 0.0949
+Run 11: 0.1003
+Run 12: 0.0914
+Run 13: 0.0945
+Run 14: 0.0892
+Run 15: 0.0968
+Run 16: 0.0931
+Run 17: 0.0954
+Run 18: 0.0986
+Run 19: 0.0921
+Run 20: 0.0920
+Run 21: 0.0988
+Run 22: 0.0985
+Run 23: 0.0996
+Run 24: 0.0890
+Run 25: 0.0927
+
+Average Probability: 0.0944
+Gap: 1

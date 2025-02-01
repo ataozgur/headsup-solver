@@ -1,0 +1,30 @@
+Straight probability results for T9o (25 runs of 10000 simulations each):
+
+Run 1: 0.0943
+Run 2: 0.0938
+Run 3: 0.0899
+Run 4: 0.0952
+Run 5: 0.0938
+Run 6: 0.0919
+Run 7: 0.0982
+Run 8: 0.0903
+Run 9: 0.0910
+Run 10: 0.0926
+Run 11: 0.1022
+Run 12: 0.0897
+Run 13: 0.0921
+Run 14: 0.0918
+Run 15: 0.0966
+Run 16: 0.0909
+Run 17: 0.0962
+Run 18: 0.0903
+Run 19: 0.0956
+Run 20: 0.0901
+Run 21: 0.0873
+Run 22: 0.0934
+Run 23: 0.0917
+Run 24: 0.0926
+Run 25: 0.0941
+
+Average Probability: 0.0930
+Gap: 1

@@ -1,0 +1,30 @@
+Straight probability results for 43o (25 runs of 10000 simulations each):
+
+Run 1: 0.0722
+Run 2: 0.0721
+Run 3: 0.0750
+Run 4: 0.0736
+Run 5: 0.0723
+Run 6: 0.0694
+Run 7: 0.0757
+Run 8: 0.0737
+Run 9: 0.0744
+Run 10: 0.0738
+Run 11: 0.0643
+Run 12: 0.0713
+Run 13: 0.0736
+Run 14: 0.0767
+Run 15: 0.0764
+Run 16: 0.0741
+Run 17: 0.0776
+Run 18: 0.0731
+Run 19: 0.0712
+Run 20: 0.0700
+Run 21: 0.0781
+Run 22: 0.0696
+Run 23: 0.0703
+Run 24: 0.0714
+Run 25: 0.0749
+
+Average Probability: 0.0730
+Gap: 1

@@ -1,0 +1,30 @@
+Straight probability results for KQo (25 runs of 10000 simulations each):
+
+Run 1: 0.0508
+Run 2: 0.0517
+Run 3: 0.0510
+Run 4: 0.0538
+Run 5: 0.0529
+Run 6: 0.0500
+Run 7: 0.0529
+Run 8: 0.0544
+Run 9: 0.0508
+Run 10: 0.0496
+Run 11: 0.0518
+Run 12: 0.0532
+Run 13: 0.0518
+Run 14: 0.0515
+Run 15: 0.0499
+Run 16: 0.0527
+Run 17: 0.0519
+Run 18: 0.0494
+Run 19: 0.0518
+Run 20: 0.0511
+Run 21: 0.0499
+Run 22: 0.0515
+Run 23: 0.0521
+Run 24: 0.0528
+Run 25: 0.0484
+
+Average Probability: 0.0515
+Gap: 1
