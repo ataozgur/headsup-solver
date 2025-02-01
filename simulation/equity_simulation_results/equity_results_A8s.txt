@@ -1,0 +1,14 @@
+Equity simulation results for A8s over 10 runs of 25000 simulations each:
+
+Run 1: 0.6211
+Run 2: 0.62192
+Run 3: 0.62004
+Run 4: 0.62294
+Run 5: 0.61744
+Run 6: 0.62352
+Run 7: 0.61914
+Run 8: 0.625
+Run 9: 0.61836
+Run 10: 0.62076
+
+Average Equity: 0.621022

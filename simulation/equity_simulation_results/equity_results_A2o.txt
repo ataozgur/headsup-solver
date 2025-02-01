@@ -1,0 +1,14 @@
+Equity simulation results for A2o over 10 runs of 25000 simulations each:
+
+Run 1: 0.55012
+Run 2: 0.5505
+Run 3: 0.55114
+Run 4: 0.54488
+Run 5: 0.54538
+Run 6: 0.5487
+Run 7: 0.54668
+Run 8: 0.5469
+Run 9: 0.54988
+Run 10: 0.54738
+
+Average Equity: 0.548156

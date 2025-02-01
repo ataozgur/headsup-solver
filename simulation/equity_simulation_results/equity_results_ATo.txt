@@ -1,0 +1,14 @@
+Equity simulation results for ATo over 10 runs of 25000 simulations each:
+
+Run 1: 0.628
+Run 2: 0.62292
+Run 3: 0.6274
+Run 4: 0.63216
+Run 5: 0.62492
+Run 6: 0.62984
+Run 7: 0.6298
+Run 8: 0.62972
+Run 9: 0.62602
+Run 10: 0.62324
+
+Average Equity: 0.627402

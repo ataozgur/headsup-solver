@@ -1,0 +1,14 @@
+Equity simulation results for AKo over 10 runs of 25000 simulations each:
+
+Run 1: 0.65188
+Run 2: 0.65404
+Run 3: 0.65758
+Run 4: 0.65312
+Run 5: 0.66146
+Run 6: 0.66142
+Run 7: 0.65722
+Run 8: 0.65836
+Run 9: 0.65288
+Run 10: 0.65178
+
+Average Equity: 0.655974

@@ -1,0 +1,14 @@
+Equity simulation results for A9s over 10 runs of 25000 simulations each:
+
+Run 1: 0.62496
+Run 2: 0.62932
+Run 3: 0.62936
+Run 4: 0.6279
+Run 5: 0.63362
+Run 6: 0.63116
+Run 7: 0.6244
+Run 8: 0.62914
+Run 9: 0.62522
+Run 10: 0.62652
+
+Average Equity: 0.62816

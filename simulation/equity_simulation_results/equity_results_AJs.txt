@@ -1,0 +1,14 @@
+Equity simulation results for AJs over 10 runs of 25000 simulations each:
+
+Run 1: 0.6561
+Run 2: 0.6521
+Run 3: 0.65436
+Run 4: 0.65734
+Run 5: 0.6527
+Run 6: 0.6543
+Run 7: 0.6536
+Run 8: 0.6521
+Run 9: 0.64912
+Run 10: 0.65286
+
+Average Equity: 0.653458

@@ -1,0 +1,14 @@
+Equity simulation results for A7s over 10 runs of 25000 simulations each:
+
+Run 1: 0.61232
+Run 2: 0.60924
+Run 3: 0.6093
+Run 4: 0.60476
+Run 5: 0.61172
+Run 6: 0.60946
+Run 7: 0.61374
+Run 8: 0.60916
+Run 9: 0.6074
+Run 10: 0.61012
+
+Average Equity: 0.609722

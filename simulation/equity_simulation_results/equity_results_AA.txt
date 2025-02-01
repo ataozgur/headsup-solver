@@ -1,0 +1,14 @@
+Equity simulation results for AA over 10 runs of 25000 simulations each:
+
+Run 1: 0.85306
+Run 2: 0.85264
+Run 3: 0.8494
+Run 4: 0.8496
+Run 5: 0.85158
+Run 6: 0.85208
+Run 7: 0.8494
+Run 8: 0.8482
+Run 9: 0.85314
+Run 10: 0.85098
+
+Average Equity: 0.851008

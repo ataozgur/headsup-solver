@@ -1,0 +1,14 @@
+Equity simulation results for AQs over 10 runs of 25000 simulations each:
+
+Run 1: 0.6672
+Run 2: 0.65798
+Run 3: 0.66044
+Run 4: 0.66428
+Run 5: 0.66182
+Run 6: 0.66276
+Run 7: 0.65486
+Run 8: 0.66062
+Run 9: 0.6597
+Run 10: 0.66552
+
+Average Equity: 0.661518

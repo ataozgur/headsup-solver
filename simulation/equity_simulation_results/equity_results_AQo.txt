@@ -1,0 +1,14 @@
+Equity simulation results for AQo over 10 runs of 25000 simulations each:
+
+Run 1: 0.6442
+Run 2: 0.6464
+Run 3: 0.64574
+Run 4: 0.64052
+Run 5: 0.64456
+Run 6: 0.6406
+Run 7: 0.6448
+Run 8: 0.64
+Run 9: 0.64606
+Run 10: 0.64408
+
+Average Equity: 0.643696

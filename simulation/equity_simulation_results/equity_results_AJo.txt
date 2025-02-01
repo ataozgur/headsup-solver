@@ -1,0 +1,14 @@
+Equity simulation results for AJo over 10 runs of 25000 simulations each:
+
+Run 1: 0.636
+Run 2: 0.63146
+Run 3: 0.63846
+Run 4: 0.63256
+Run 5: 0.6298
+Run 6: 0.63102
+Run 7: 0.63354
+Run 8: 0.63484
+Run 9: 0.6353
+Run 10: 0.63258
+
+Average Equity: 0.633556

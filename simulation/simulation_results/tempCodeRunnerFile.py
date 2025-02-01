@@ -1,0 +1,1 @@
+    results_dir = os.path.join(this_dir, "simulation_results")

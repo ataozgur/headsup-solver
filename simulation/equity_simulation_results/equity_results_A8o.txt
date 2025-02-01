@@ -1,0 +1,14 @@
+Equity simulation results for A8o over 10 runs of 25000 simulations each:
+
+Run 1: 0.60066
+Run 2: 0.59768
+Run 3: 0.59832
+Run 4: 0.60286
+Run 5: 0.59452
+Run 6: 0.59644
+Run 7: 0.59556
+Run 8: 0.59706
+Run 9: 0.59546
+Run 10: 0.6006
+
+Average Equity: 0.597916

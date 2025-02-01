@@ -1,0 +1,14 @@
+Equity simulation results for A3s over 10 runs of 25000 simulations each:
+
+Run 1: 0.58466
+Run 2: 0.58434
+Run 3: 0.58246
+Run 4: 0.58456
+Run 5: 0.5794
+Run 6: 0.58782
+Run 7: 0.58304
+Run 8: 0.5866
+Run 9: 0.5823
+Run 10: 0.58074
+
+Average Equity: 0.583592

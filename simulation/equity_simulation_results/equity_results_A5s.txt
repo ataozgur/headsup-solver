@@ -1,0 +1,14 @@
+Equity simulation results for A5s over 10 runs of 25000 simulations each:
+
+Run 1: 0.60136
+Run 2: 0.5942
+Run 3: 0.59666
+Run 4: 0.6047
+Run 5: 0.59746
+Run 6: 0.60076
+Run 7: 0.59696
+Run 8: 0.59826
+Run 9: 0.59732
+Run 10: 0.60336
+
+Average Equity: 0.599104

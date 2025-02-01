@@ -1,0 +1,14 @@
+Equity simulation results for A3o over 10 runs of 25000 simulations each:
+
+Run 1: 0.56218
+Run 2: 0.55836
+Run 3: 0.56008
+Run 4: 0.56018
+Run 5: 0.5579
+Run 6: 0.56038
+Run 7: 0.55784
+Run 8: 0.56168
+Run 9: 0.55568
+Run 10: 0.5606
+
+Average Equity: 0.559488

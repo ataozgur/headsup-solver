@@ -1,0 +1,14 @@
+Equity simulation results for AKs over 10 runs of 25000 simulations each:
+
+Run 1: 0.67308
+Run 2: 0.6702
+Run 3: 0.66956
+Run 4: 0.66976
+Run 5: 0.66732
+Run 6: 0.6737
+Run 7: 0.66718
+Run 8: 0.6741
+Run 9: 0.6746
+Run 10: 0.66988
+
+Average Equity: 0.670938

@@ -1,0 +1,14 @@
+Equity simulation results for A6o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5773
+Run 2: 0.5781
+Run 3: 0.57708
+Run 4: 0.5756
+Run 5: 0.57296
+Run 6: 0.57814
+Run 7: 0.57664
+Run 8: 0.57562
+Run 9: 0.57464
+Run 10: 0.58006
+
+Average Equity: 0.576614

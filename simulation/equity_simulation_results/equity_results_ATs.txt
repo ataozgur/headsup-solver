@@ -1,0 +1,14 @@
+Equity simulation results for ATs over 10 runs of 25000 simulations each:
+
+Run 1: 0.64456
+Run 2: 0.64696
+Run 3: 0.64448
+Run 4: 0.64708
+Run 5: 0.6497
+Run 6: 0.64706
+Run 7: 0.6478
+Run 8: 0.6413
+Run 9: 0.644
+Run 10: 0.64334
+
+Average Equity: 0.645628

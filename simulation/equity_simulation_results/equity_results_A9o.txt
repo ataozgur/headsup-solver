@@ -1,0 +1,14 @@
+Equity simulation results for A9o over 10 runs of 25000 simulations each:
+
+Run 1: 0.61186
+Run 2: 0.60988
+Run 3: 0.60766
+Run 4: 0.6098
+Run 5: 0.60668
+Run 6: 0.6106
+Run 7: 0.61808
+Run 8: 0.61046
+Run 9: 0.60688
+Run 10: 0.60022
+
+Average Equity: 0.609212

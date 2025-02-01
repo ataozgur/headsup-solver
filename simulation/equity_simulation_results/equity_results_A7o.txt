@@ -1,0 +1,14 @@
+Equity simulation results for A7o over 10 runs of 25000 simulations each:
+
+Run 1: 0.58308
+Run 2: 0.59514
+Run 3: 0.58872
+Run 4: 0.58624
+Run 5: 0.5837
+Run 6: 0.58668
+Run 7: 0.59042
+Run 8: 0.59392
+Run 9: 0.59192
+Run 10: 0.59652
+
+Average Equity: 0.589634

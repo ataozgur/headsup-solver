@@ -1,0 +1,14 @@
+Equity simulation results for A4s over 10 runs of 25000 simulations each:
+
+Run 1: 0.59034
+Run 2: 0.59352
+Run 3: 0.58994
+Run 4: 0.58804
+Run 5: 0.5915
+Run 6: 0.59156
+Run 7: 0.59322
+Run 8: 0.59218
+Run 9: 0.58664
+Run 10: 0.59124
+
+Average Equity: 0.590818

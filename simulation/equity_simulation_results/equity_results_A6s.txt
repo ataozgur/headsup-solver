@@ -1,0 +1,14 @@
+Equity simulation results for A6s over 10 runs of 25000 simulations each:
+
+Run 1: 0.60046
+Run 2: 0.59978
+Run 3: 0.5987
+Run 4: 0.59662
+Run 5: 0.60484
+Run 6: 0.5984
+Run 7: 0.59324
+Run 8: 0.60644
+Run 9: 0.60072
+Run 10: 0.5961
+
+Average Equity: 0.59953

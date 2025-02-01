@@ -1,0 +1,14 @@
+Equity simulation results for A2s over 10 runs of 25000 simulations each:
+
+Run 1: 0.57132
+Run 2: 0.57364
+Run 3: 0.57688
+Run 4: 0.57216
+Run 5: 0.57012
+Run 6: 0.57086
+Run 7: 0.57556
+Run 8: 0.5756
+Run 9: 0.5722
+Run 10: 0.57368
+
+Average Equity: 0.573202
