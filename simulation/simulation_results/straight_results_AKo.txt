@@ -1,30 +1,30 @@
 Straight probability results for AKo (25 runs of 10000 simulations each):
 
-Run 1: 0.0326
+Run 1: 0.0333
 Run 2: 0.0336
-Run 3: 0.0345
-Run 4: 0.0334
-Run 5: 0.0352
-Run 6: 0.0353
-Run 7: 0.0315
-Run 8: 0.0349
-Run 9: 0.0327
-Run 10: 0.0363
-Run 11: 0.0334
+Run 3: 0.0316
+Run 4: 0.0352
+Run 5: 0.0354
+Run 6: 0.0321
+Run 7: 0.0352
+Run 8: 0.0364
+Run 9: 0.0320
+Run 10: 0.0340
+Run 11: 0.0328
 Run 12: 0.0347
-Run 13: 0.0355
-Run 14: 0.0356
-Run 15: 0.0347
-Run 16: 0.0380
-Run 17: 0.0317
-Run 18: 0.0336
-Run 19: 0.0332
-Run 20: 0.0369
-Run 21: 0.0362
-Run 22: 0.0350
-Run 23: 0.0351
-Run 24: 0.0321
-Run 25: 0.0347
+Run 13: 0.0340
+Run 14: 0.0314
+Run 15: 0.0340
+Run 16: 0.0366
+Run 17: 0.0356
+Run 18: 0.0363
+Run 19: 0.0358
+Run 20: 0.0312
+Run 21: 0.0328
+Run 22: 0.0359
+Run 23: 0.0331
+Run 24: 0.0354
+Run 25: 0.0362
 
-Average Probability: 0.0344
+Average Probability: 0.0342
 Gap: 1

@@ -39,75 +39,85 @@ def generate_random_hand():
         
 def evaluate_hand_strength(hand):
     """
-    Evaluates a 2-card hold'em hand string (e.g., 'AA', '44', 'QJs', 'A2o') 
+    Evaluates a 2-card hold'em hand string (e.g., 'AA', '44', 'QJs', 'A2o')
     and returns a float between 0.0 and 1.0 indicating approximate strength.
     
     Hand format assumptions:
-      - Pocket pairs: 'AA', 'KK', '22', etc. (2 chars total)
-      - Non-pairs: 'QJs', 'T9o', 'A2o', etc. (3 chars total, with 's' or 'o')
+      - Pocket pairs: 'AA', 'KK', '22', etc. (2 characters total)
+      - Non-pairs: 'QJs', 'T9o', 'A2o', etc. (3 characters total, with 's' or 'o')
+      
+    This version uses a connectivity bonus that is computed as:
+      connectivity_bonus = connectivity_coefficient * simulated_straight_probability(gap)
+    rather than simply adding a fixed bonus.
     """
+    # Map each rank to a numeric value.
     rank_values = {
         "A": 14, "K": 13, "Q": 12, "J": 11, "T": 10,
          "9": 9,  "8": 8,  "7": 7,  "6": 6,  "5": 5, 
          "4": 4,  "3": 3,  "2": 2
     }
     
-    # --- 1) Check if it's a pocket pair: e.g., 'AA', '44', etc. ---
+    # --- 1) Pocket Pairs ---
     if len(hand) == 2:
-        # Both chars are ranks. For example: 'AA', '44', 'KK'
+        # For pocket pairs like 'AA', '44', etc.
         value = rank_values[hand[0]]
-        # We'll create a slightly "curved" scale so 22 isn't too weak and AA = 1.0
-        # For instance: 22 => ~0.45 ... 77 => ~0.7 ... AA => 1.0
-        # (Tweak coefficients as you see fit.)
-        strength = 0.3 + 0.7 * ((value - 2) / (14 - 2))  
+        # Create a curved scale so that even 22 gets a decent value and AA = 1.0.
+        strength = 0.3 + 0.7 * ((value - 2) / (14 - 2))
         return min(max(strength, 0.0), 1.0)
     
-    # --- 2) If it's not a pair, parse something like 'A2o', 'QJs', etc. ---
+    # --- 2) Non-pairs (e.g., 'QJs', 'T9o', 'A2o', etc.) ---
     elif len(hand) == 3:
         card1, card2, suit_char = hand[0], hand[1], hand[2]
         v1, v2 = rank_values[card1], rank_values[card2]
         
-        # Sort so that v1 >= v2 for convenience
+        # Ensure v1 is the higher value.
         if v2 > v1:
             v1, v2 = v2, v1
         
-        # Base strength from average rank
-        # e.g., for AQ => (14 + 12) / 28 = ~0.93 (before bonuses)
+        # Base strength from average rank.
+        # For example, for AQ => (14 + 12) / 28 ≈ 0.93 (before bonuses).
         base = (v1 + v2) / 28.0
         
-        # --- 2a) Add bonus if suited ---
+        # --- 2a) Suited Bonus ---
         suited_bonus = 0.05 if suit_char == 's' else 0.0
         
-        # --- 2b) Connectivity bonus ---
-        # gap = difference in rank
+        # --- 2b) Connectivity Bonus (via simulated straight probability) ---
         gap = v1 - v2
-        # e.g., JTs => gap = 1 => bigger bonus; A2 => gap=12 => no bonus
-        # You can adjust these exact values to your liking.
-        if gap == 1:
-            connect_bonus = 0.08  # e.g., JT, 98, 54
-        elif gap == 2:
-            connect_bonus = 0.05  # e.g., J9, 97
-        elif gap == 3:
-            connect_bonus = 0.03
-        elif gap == 4:
-            connect_bonus = 0.015
-        else:
-            connect_bonus = 0.0
         
-        # Combine
+        # Lookup table for the (simulated) probability of making a straight at the river,
+        # based on the gap between the two hole cards.
+        # (These numbers come from your simulation results; note that the numbers will depend on the actual cards.)
+        # For example, from your simulation:
+        #   - For gap = 1: hands like T9o have ~0.094 probability (we round to 0.09 here).
+        #   - For gap = 2: ~0.08
+        #   - For gap = 3: ~0.065
+        #   - For gap = 4: ~0.052
+        straight_prob_by_gap = {
+            1: 0.09,
+            2: 0.08,
+            3: 0.065,
+            4: 0.052
+            # For gaps larger than 4, we assume connectivity is minimal.
+        }
+        base_connect_prob = straight_prob_by_gap.get(gap, 0.0)
+        
+        # Multiply the simulated straight probability by a coefficient to moderate its impact.
+        connectivity_coefficient = 0.5  # Adjust this coefficient to change the weight of connectivity.
+        connect_bonus = connectivity_coefficient * base_connect_prob
+        
+        # Combine all components.
         strength = base + suited_bonus + connect_bonus
         
-        # Optionally, add a small penalty if the kicker is *really* low compared to the highest card
-        # This helps reduce the strength of something like A2o
-        # (Many players overvalue an Ace with a bad kicker in heads-up, but it’s still decent.)
-        if v1 >= 11 and v2 <= 5:  # e.g., A4, K5
-            strength -= 0.02  # small penalty, tweak as desired
+        # Optionally, penalize a very weak kicker when paired with a high card.
+        if v1 >= 11 and v2 <= 5:  # e.g., A4o, K5o.
+            strength -= 0.02
         
-        # Clamp to [0, 1]
+        # Clamp the strength to [0, 1].
         return min(max(strength, 0.0), 1.0)
     
-    # If something unexpected
+    # Fallback (should not occur).
     return 0.0
+
 
 
 def decide_correct_action(hand, scenario, player_stack=None):
