@@ -36,6 +36,7 @@ def generate_random_hand():
             card1, card2 = card2, card1
         suited = random.choice([True, False])
         return card1 + card2 + ("s" if suited else "o")
+        
 def evaluate_hand_strength(hand):
     """
     Evaluates a 2-card hold'em hand string (e.g., 'AA', '44', 'QJs', 'A2o') 
