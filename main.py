@@ -36,25 +36,78 @@ def generate_random_hand():
             card1, card2 = card2, card1
         suited = random.choice([True, False])
         return card1 + card2 + ("s" if suited else "o")
-
 def evaluate_hand_strength(hand):
     """
-    A very simplified heuristic that assigns a strength between 0 and 1.
-      - For pairs: strength is proportional to rank (AA = 1.0, 22 is very low).
-      - For non-pairs: take the average of the two card values (normalized) and add a small bonus if suited.
+    Evaluates a 2-card hold'em hand string (e.g., 'AA', '44', 'QJs', 'A2o') 
+    and returns a float between 0.0 and 1.0 indicating approximate strength.
+    
+    Hand format assumptions:
+      - Pocket pairs: 'AA', 'KK', '22', etc. (2 chars total)
+      - Non-pairs: 'QJs', 'T9o', 'A2o', etc. (3 chars total, with 's' or 'o')
     """
-    rank_values = {"A":14, "K":13, "Q":12, "J":11, "T":10,
-                   "9":9, "8":8, "7":7, "6":6, "5":5, "4":4, "3":3, "2":2}
-    if len(hand) == 2:  # Pair, e.g., "AA"
+    rank_values = {
+        "A": 14, "K": 13, "Q": 12, "J": 11, "T": 10,
+         "9": 9,  "8": 8,  "7": 7,  "6": 6,  "5": 5, 
+         "4": 4,  "3": 3,  "2": 2
+    }
+    
+    # --- 1) Check if it's a pocket pair: e.g., 'AA', '44', etc. ---
+    if len(hand) == 2:
+        # Both chars are ranks. For example: 'AA', '44', 'KK'
         value = rank_values[hand[0]]
-        return value / 14.0
+        # We'll create a slightly "curved" scale so 22 isn't too weak and AA = 1.0
+        # For instance: 22 => ~0.45 ... 77 => ~0.7 ... AA => 1.0
+        # (Tweak coefficients as you see fit.)
+        strength = 0.3 + 0.7 * ((value - 2) / (14 - 2))  
+        return min(max(strength, 0.0), 1.0)
+    
+    # --- 2) If it's not a pair, parse something like 'A2o', 'QJs', etc. ---
     elif len(hand) == 3:
-        card1, card2, style = hand[0], hand[1], hand[2]
-        avg = (rank_values[card1] + rank_values[card2]) / 28.0
-        bonus = 0.05 if style == "s" else 0.0
-        return min(avg + bonus, 1.0)
-    else:
-        return 0.0
+        card1, card2, suit_char = hand[0], hand[1], hand[2]
+        v1, v2 = rank_values[card1], rank_values[card2]
+        
+        # Sort so that v1 >= v2 for convenience
+        if v2 > v1:
+            v1, v2 = v2, v1
+        
+        # Base strength from average rank
+        # e.g., for AQ => (14 + 12) / 28 = ~0.93 (before bonuses)
+        base = (v1 + v2) / 28.0
+        
+        # --- 2a) Add bonus if suited ---
+        suited_bonus = 0.05 if suit_char == 's' else 0.0
+        
+        # --- 2b) Connectivity bonus ---
+        # gap = difference in rank
+        gap = v1 - v2
+        # e.g., JTs => gap = 1 => bigger bonus; A2 => gap=12 => no bonus
+        # You can adjust these exact values to your liking.
+        if gap == 1:
+            connect_bonus = 0.08  # e.g., JT, 98, 54
+        elif gap == 2:
+            connect_bonus = 0.05  # e.g., J9, 97
+        elif gap == 3:
+            connect_bonus = 0.03
+        elif gap == 4:
+            connect_bonus = 0.015
+        else:
+            connect_bonus = 0.0
+        
+        # Combine
+        strength = base + suited_bonus + connect_bonus
+        
+        # Optionally, add a small penalty if the kicker is *really* low compared to the highest card
+        # This helps reduce the strength of something like A2o
+        # (Many players overvalue an Ace with a bad kicker in heads-up, but it’s still decent.)
+        if v1 >= 11 and v2 <= 5:  # e.g., A4, K5
+            strength -= 0.02  # small penalty, tweak as desired
+        
+        # Clamp to [0, 1]
+        return min(max(strength, 0.0), 1.0)
+    
+    # If something unexpected
+    return 0.0
+
 
 def decide_correct_action(hand, scenario, player_stack=None):
     """
