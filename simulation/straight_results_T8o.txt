@@ -1,0 +1,29 @@
+Straight probability results for T8o (25 runs of 10000 simulations each):
+
+Run 1: 0.0806
+Run 2: 0.0835
+Run 3: 0.0832
+Run 4: 0.0811
+Run 5: 0.0788
+Run 6: 0.0828
+Run 7: 0.0792
+Run 8: 0.0851
+Run 9: 0.0769
+Run 10: 0.0787
+Run 11: 0.0819
+Run 12: 0.0727
+Run 13: 0.0801
+Run 14: 0.0802
+Run 15: 0.0805
+Run 16: 0.0785
+Run 17: 0.0734
+Run 18: 0.0800
+Run 19: 0.0788
+Run 20: 0.0840
+Run 21: 0.0755
+Run 22: 0.0815
+Run 23: 0.0791
+Run 24: 0.0787
+Run 25: 0.0821
+
+Average Probability: 0.0799

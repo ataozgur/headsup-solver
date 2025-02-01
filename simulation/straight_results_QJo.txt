@@ -1,0 +1,29 @@
+Straight probability results for QJo (25 runs of 10000 simulations each):
+
+Run 1: 0.0749
+Run 2: 0.0741
+Run 3: 0.0774
+Run 4: 0.0706
+Run 5: 0.0732
+Run 6: 0.0739
+Run 7: 0.0749
+Run 8: 0.0694
+Run 9: 0.0756
+Run 10: 0.0760
+Run 11: 0.0722
+Run 12: 0.0733
+Run 13: 0.0752
+Run 14: 0.0678
+Run 15: 0.0752
+Run 16: 0.0671
+Run 17: 0.0708
+Run 18: 0.0744
+Run 19: 0.0723
+Run 20: 0.0757
+Run 21: 0.0758
+Run 22: 0.0720
+Run 23: 0.0693
+Run 24: 0.0745
+Run 25: 0.0718
+
+Average Probability: 0.0731
