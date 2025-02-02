@@ -1,0 +1,14 @@
+Equity simulation results for K4s over 10 runs of 25000 simulations each:
+
+Run 1: 0.54772
+Run 2: 0.54152
+Run 3: 0.54596
+Run 4: 0.5486
+Run 5: 0.54634
+Run 6: 0.54804
+Run 7: 0.54004
+Run 8: 0.54636
+Run 9: 0.54604
+Run 10: 0.55014
+
+Average Equity: 0.546076

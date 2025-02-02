@@ -1,0 +1,14 @@
+Equity simulation results for KK over 10 runs of 25000 simulations each:
+
+Run 1: 0.82416
+Run 2: 0.82336
+Run 3: 0.82474
+Run 4: 0.82478
+Run 5: 0.8201
+Run 6: 0.81842
+Run 7: 0.82508
+Run 8: 0.82464
+Run 9: 0.82016
+Run 10: 0.82282
+
+Average Equity: 0.822826

@@ -1,0 +1,14 @@
+Equity simulation results for T4s over 10 runs of 25000 simulations each:
+
+Run 1: 0.464
+Run 2: 0.46604
+Run 3: 0.46466
+Run 4: 0.46832
+Run 5: 0.46558
+Run 6: 0.46676
+Run 7: 0.46368
+Run 8: 0.4674
+Run 9: 0.46798
+Run 10: 0.46724
+
+Average Equity: 0.466166

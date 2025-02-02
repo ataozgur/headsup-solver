@@ -1,0 +1,14 @@
+Equity simulation results for J6o over 10 runs of 25000 simulations each:
+
+Run 1: 0.47842
+Run 2: 0.47776
+Run 3: 0.48022
+Run 4: 0.48338
+Run 5: 0.47644
+Run 6: 0.47948
+Run 7: 0.47852
+Run 8: 0.478
+Run 9: 0.47874
+Run 10: 0.47624
+
+Average Equity: 0.47872

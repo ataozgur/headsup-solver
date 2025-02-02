@@ -1,0 +1,14 @@
+Equity simulation results for J4s over 10 runs of 25000 simulations each:
+
+Run 1: 0.48686
+Run 2: 0.4912
+Run 3: 0.48546
+Run 4: 0.48962
+Run 5: 0.4944
+Run 6: 0.48942
+Run 7: 0.48884
+Run 8: 0.49282
+Run 9: 0.49094
+Run 10: 0.49124
+
+Average Equity: 0.49008

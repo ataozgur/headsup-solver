@@ -1,0 +1,14 @@
+Equity simulation results for J2o over 10 runs of 25000 simulations each:
+
+Run 1: 0.44294
+Run 2: 0.4404
+Run 3: 0.4428
+Run 4: 0.44586
+Run 5: 0.44472
+Run 6: 0.44112
+Run 7: 0.43886
+Run 8: 0.44442
+Run 9: 0.43896
+Run 10: 0.43836
+
+Average Equity: 0.441844

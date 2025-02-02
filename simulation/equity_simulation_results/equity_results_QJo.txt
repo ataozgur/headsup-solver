@@ -1,0 +1,14 @@
+Equity simulation results for QJo over 10 runs of 25000 simulations each:
+
+Run 1: 0.5831
+Run 2: 0.58454
+Run 3: 0.58052
+Run 4: 0.57982
+Run 5: 0.58438
+Run 6: 0.58294
+Run 7: 0.58104
+Run 8: 0.57932
+Run 9: 0.58448
+Run 10: 0.58092
+
+Average Equity: 0.582106

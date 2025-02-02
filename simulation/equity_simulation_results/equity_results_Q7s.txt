@@ -1,0 +1,14 @@
+Equity simulation results for Q7s over 10 runs of 25000 simulations each:
+
+Run 1: 0.5397
+Run 2: 0.5465
+Run 3: 0.5401
+Run 4: 0.54674
+Run 5: 0.5408
+Run 6: 0.54436
+Run 7: 0.54482
+Run 8: 0.54626
+Run 9: 0.5452
+Run 10: 0.54106
+
+Average Equity: 0.543554

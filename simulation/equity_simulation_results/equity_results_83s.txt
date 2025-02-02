@@ -1,0 +1,14 @@
+Equity simulation results for 83s over 10 runs of 25000 simulations each:
+
+Run 1: 0.40512
+Run 2: 0.40996
+Run 3: 0.4068
+Run 4: 0.40356
+Run 5: 0.40424
+Run 6: 0.40744
+Run 7: 0.41126
+Run 8: 0.41124
+Run 9: 0.41098
+Run 10: 0.41098
+
+Average Equity: 0.408158

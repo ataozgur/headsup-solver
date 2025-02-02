@@ -1,0 +1,14 @@
+Equity simulation results for T4o over 10 runs of 25000 simulations each:
+
+Run 1: 0.43406
+Run 2: 0.43174
+Run 3: 0.4376
+Run 4: 0.43484
+Run 5: 0.4361
+Run 6: 0.43284
+Run 7: 0.43018
+Run 8: 0.43406
+Run 9: 0.43578
+Run 10: 0.43128
+
+Average Equity: 0.433848

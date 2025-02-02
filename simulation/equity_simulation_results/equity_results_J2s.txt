@@ -1,0 +1,14 @@
+Equity simulation results for J2s over 10 runs of 25000 simulations each:
+
+Run 1: 0.47386
+Run 2: 0.46388
+Run 3: 0.46882
+Run 4: 0.46896
+Run 5: 0.47942
+Run 6: 0.48084
+Run 7: 0.47446
+Run 8: 0.47316
+Run 9: 0.47104
+Run 10: 0.47396
+
+Average Equity: 0.47284

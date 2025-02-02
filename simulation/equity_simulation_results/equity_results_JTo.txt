@@ -1,0 +1,14 @@
+Equity simulation results for JTo over 10 runs of 25000 simulations each:
+
+Run 1: 0.54852
+Run 2: 0.55086
+Run 3: 0.54896
+Run 4: 0.5477
+Run 5: 0.55292
+Run 6: 0.5534
+Run 7: 0.5519
+Run 8: 0.55052
+Run 9: 0.55346
+Run 10: 0.55142
+
+Average Equity: 0.550966

@@ -1,0 +1,14 @@
+Equity simulation results for K6s over 10 runs of 25000 simulations each:
+
+Run 1: 0.56354
+Run 2: 0.56354
+Run 3: 0.5711
+Run 4: 0.56426
+Run 5: 0.56574
+Run 6: 0.56066
+Run 7: 0.56638
+Run 8: 0.56588
+Run 9: 0.57064
+Run 10: 0.56584
+
+Average Equity: 0.565758

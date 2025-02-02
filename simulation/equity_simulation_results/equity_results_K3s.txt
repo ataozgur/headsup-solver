@@ -1,0 +1,14 @@
+Equity simulation results for K3s over 10 runs of 25000 simulations each:
+
+Run 1: 0.54264
+Run 2: 0.53678
+Run 3: 0.5416
+Run 4: 0.54062
+Run 5: 0.54126
+Run 6: 0.54158
+Run 7: 0.53844
+Run 8: 0.53932
+Run 9: 0.53634
+Run 10: 0.53898
+
+Average Equity: 0.539756

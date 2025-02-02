@@ -1,0 +1,14 @@
+Equity simulation results for T9s over 10 runs of 25000 simulations each:
+
+Run 1: 0.54212
+Run 2: 0.54152
+Run 3: 0.54264
+Run 4: 0.53512
+Run 5: 0.53672
+Run 6: 0.5411
+Run 7: 0.5392
+Run 8: 0.53838
+Run 9: 0.53934
+Run 10: 0.5401
+
+Average Equity: 0.539624

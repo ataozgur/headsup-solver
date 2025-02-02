@@ -1,0 +1,14 @@
+Equity simulation results for K5s over 10 runs of 25000 simulations each:
+
+Run 1: 0.5576
+Run 2: 0.5593
+Run 3: 0.55824
+Run 4: 0.56
+Run 5: 0.55628
+Run 6: 0.55712
+Run 7: 0.55946
+Run 8: 0.55778
+Run 9: 0.55498
+Run 10: 0.55948
+
+Average Equity: 0.558024

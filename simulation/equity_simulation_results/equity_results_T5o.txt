@@ -1,0 +1,14 @@
+Equity simulation results for T5o over 10 runs of 25000 simulations each:
+
+Run 1: 0.44502
+Run 2: 0.44514
+Run 3: 0.44192
+Run 4: 0.4433
+Run 5: 0.44676
+Run 6: 0.4404
+Run 7: 0.4406
+Run 8: 0.43778
+Run 9: 0.4432
+Run 10: 0.44156
+
+Average Equity: 0.442568

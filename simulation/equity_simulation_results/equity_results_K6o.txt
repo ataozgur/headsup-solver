@@ -1,0 +1,14 @@
+Equity simulation results for K6o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5423
+Run 2: 0.54784
+Run 3: 0.54298
+Run 4: 0.54132
+Run 5: 0.53846
+Run 6: 0.54858
+Run 7: 0.54258
+Run 8: 0.54516
+Run 9: 0.54176
+Run 10: 0.54474
+
+Average Equity: 0.543572

@@ -1,0 +1,14 @@
+Equity simulation results for T2o over 10 runs of 25000 simulations each:
+
+Run 1: 0.4164
+Run 2: 0.41644
+Run 3: 0.4205
+Run 4: 0.4198
+Run 5: 0.42282
+Run 6: 0.41732
+Run 7: 0.42094
+Run 8: 0.41902
+Run 9: 0.41958
+Run 10: 0.41432
+
+Average Equity: 0.418714

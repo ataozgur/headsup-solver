@@ -1,0 +1,14 @@
+Equity simulation results for K7o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5461
+Run 2: 0.55056
+Run 3: 0.5552
+Run 4: 0.54654
+Run 5: 0.55686
+Run 6: 0.55424
+Run 7: 0.55082
+Run 8: 0.55284
+Run 9: 0.55252
+Run 10: 0.55258
+
+Average Equity: 0.551826

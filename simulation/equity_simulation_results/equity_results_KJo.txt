@@ -1,0 +1,14 @@
+Equity simulation results for KJo over 10 runs of 25000 simulations each:
+
+Run 1: 0.60854
+Run 2: 0.60746
+Run 3: 0.60728
+Run 4: 0.60826
+Run 5: 0.60476
+Run 6: 0.6043
+Run 7: 0.6047
+Run 8: 0.60324
+Run 9: 0.60774
+Run 10: 0.60474
+
+Average Equity: 0.606102

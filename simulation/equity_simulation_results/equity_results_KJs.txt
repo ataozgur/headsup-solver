@@ -1,0 +1,14 @@
+Equity simulation results for KJs over 10 runs of 25000 simulations each:
+
+Run 1: 0.62606
+Run 2: 0.62402
+Run 3: 0.62686
+Run 4: 0.6251
+Run 5: 0.62566
+Run 6: 0.62708
+Run 7: 0.6266
+Run 8: 0.62176
+Run 9: 0.62338
+Run 10: 0.62558
+
+Average Equity: 0.62521

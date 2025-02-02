@@ -1,0 +1,14 @@
+Equity simulation results for J5o over 10 runs of 25000 simulations each:
+
+Run 1: 0.46732
+Run 2: 0.46788
+Run 3: 0.47578
+Run 4: 0.47624
+Run 5: 0.4709
+Run 6: 0.46928
+Run 7: 0.47662
+Run 8: 0.4718
+Run 9: 0.46784
+Run 10: 0.4751
+
+Average Equity: 0.471876

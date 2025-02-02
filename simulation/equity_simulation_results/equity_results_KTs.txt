@@ -1,0 +1,14 @@
+Equity simulation results for KTs over 10 runs of 25000 simulations each:
+
+Run 1: 0.62076
+Run 2: 0.6177
+Run 3: 0.61798
+Run 4: 0.62136
+Run 5: 0.61564
+Run 6: 0.618
+Run 7: 0.61874
+Run 8: 0.61976
+Run 9: 0.61762
+Run 10: 0.61846
+
+Average Equity: 0.618602

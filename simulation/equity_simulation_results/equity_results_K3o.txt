@@ -1,0 +1,14 @@
+Equity simulation results for K3o over 10 runs of 25000 simulations each:
+
+Run 1: 0.51424
+Run 2: 0.51956
+Run 3: 0.51824
+Run 4: 0.51806
+Run 5: 0.51188
+Run 6: 0.51674
+Run 7: 0.51702
+Run 8: 0.51828
+Run 9: 0.51548
+Run 10: 0.5084
+
+Average Equity: 0.51579

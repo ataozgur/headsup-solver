@@ -1,0 +1,14 @@
+Equity simulation results for TT over 10 runs of 25000 simulations each:
+
+Run 1: 0.75026
+Run 2: 0.75008
+Run 3: 0.75128
+Run 4: 0.75392
+Run 5: 0.7528
+Run 6: 0.74462
+Run 7: 0.74998
+Run 8: 0.75162
+Run 9: 0.75148
+Run 10: 0.74668
+
+Average Equity: 0.750272

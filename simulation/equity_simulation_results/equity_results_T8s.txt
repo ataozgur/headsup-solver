@@ -1,0 +1,14 @@
+Equity simulation results for T8s over 10 runs of 25000 simulations each:
+
+Run 1: 0.52618
+Run 2: 0.51728
+Run 3: 0.5246
+Run 4: 0.5201
+Run 5: 0.52022
+Run 6: 0.52002
+Run 7: 0.52208
+Run 8: 0.52754
+Run 9: 0.51748
+Run 10: 0.52396
+
+Average Equity: 0.521946

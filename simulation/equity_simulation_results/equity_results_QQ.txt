@@ -1,0 +1,14 @@
+Equity simulation results for QQ over 10 runs of 25000 simulations each:
+
+Run 1: 0.80278
+Run 2: 0.80028
+Run 3: 0.79908
+Run 4: 0.79962
+Run 5: 0.80204
+Run 6: 0.79482
+Run 7: 0.80018
+Run 8: 0.80078
+Run 9: 0.80204
+Run 10: 0.79822
+
+Average Equity: 0.799984

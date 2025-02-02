@@ -1,0 +1,14 @@
+Equity simulation results for J4o over 10 runs of 25000 simulations each:
+
+Run 1: 0.46324
+Run 2: 0.46136
+Run 3: 0.46032
+Run 4: 0.4609
+Run 5: 0.46278
+Run 6: 0.46348
+Run 7: 0.46314
+Run 8: 0.46934
+Run 9: 0.46074
+Run 10: 0.46574
+
+Average Equity: 0.463104

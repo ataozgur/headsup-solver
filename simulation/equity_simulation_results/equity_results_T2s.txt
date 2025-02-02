@@ -1,0 +1,14 @@
+Equity simulation results for T2s over 10 runs of 25000 simulations each:
+
+Run 1: 0.4545
+Run 2: 0.4483
+Run 3: 0.44844
+Run 4: 0.45546
+Run 5: 0.44612
+Run 6: 0.44998
+Run 7: 0.45418
+Run 8: 0.45076
+Run 9: 0.44672
+Run 10: 0.45264
+
+Average Equity: 0.45071

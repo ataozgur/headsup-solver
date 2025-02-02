@@ -1,0 +1,14 @@
+Equity simulation results for JJ over 10 runs of 25000 simulations each:
+
+Run 1: 0.7736
+Run 2: 0.77814
+Run 3: 0.77344
+Run 4: 0.77364
+Run 5: 0.77322
+Run 6: 0.77366
+Run 7: 0.77394
+Run 8: 0.77106
+Run 9: 0.77828
+Run 10: 0.7745
+
+Average Equity: 0.774348

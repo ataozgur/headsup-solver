@@ -1,0 +1,14 @@
+Equity simulation results for J3o over 10 runs of 25000 simulations each:
+
+Run 1: 0.45048
+Run 2: 0.45244
+Run 3: 0.45254
+Run 4: 0.45252
+Run 5: 0.44608
+Run 6: 0.45948
+Run 7: 0.45048
+Run 8: 0.453
+Run 9: 0.45732
+Run 10: 0.45564
+
+Average Equity: 0.452998

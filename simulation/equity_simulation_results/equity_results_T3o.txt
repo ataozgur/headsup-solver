@@ -1,0 +1,14 @@
+Equity simulation results for T3o over 10 runs of 25000 simulations each:
+
+Run 1: 0.42406
+Run 2: 0.42686
+Run 3: 0.42086
+Run 4: 0.42822
+Run 5: 0.42808
+Run 6: 0.4308
+Run 7: 0.42232
+Run 8: 0.42528
+Run 9: 0.4214
+Run 10: 0.4279
+
+Average Equity: 0.425578

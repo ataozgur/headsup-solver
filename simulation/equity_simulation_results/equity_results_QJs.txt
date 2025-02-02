@@ -1,0 +1,14 @@
+Equity simulation results for QJs over 10 runs of 25000 simulations each:
+
+Run 1: 0.60346
+Run 2: 0.6055
+Run 3: 0.60286
+Run 4: 0.60442
+Run 5: 0.5982
+Run 6: 0.6045
+Run 7: 0.6002
+Run 8: 0.60444
+Run 9: 0.60234
+Run 10: 0.60208
+
+Average Equity: 0.6028

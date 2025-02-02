@@ -1,0 +1,14 @@
+Equity simulation results for J9o over 10 runs of 25000 simulations each:
+
+Run 1: 0.53642
+Run 2: 0.529
+Run 3: 0.53386
+Run 4: 0.53722
+Run 5: 0.533
+Run 6: 0.53348
+Run 7: 0.53838
+Run 8: 0.53558
+Run 9: 0.5296
+Run 10: 0.53788
+
+Average Equity: 0.534442

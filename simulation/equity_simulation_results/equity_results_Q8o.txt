@@ -1,0 +1,14 @@
+Equity simulation results for Q8o over 10 runs of 25000 simulations each:
+
+Run 1: 0.53402
+Run 2: 0.53512
+Run 3: 0.53622
+Run 4: 0.53608
+Run 5: 0.53682
+Run 6: 0.53856
+Run 7: 0.53484
+Run 8: 0.53148
+Run 9: 0.53224
+Run 10: 0.53918
+
+Average Equity: 0.535456

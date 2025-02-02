@@ -1,0 +1,14 @@
+Equity simulation results for KQs over 10 runs of 25000 simulations each:
+
+Run 1: 0.63696
+Run 2: 0.63582
+Run 3: 0.63068
+Run 4: 0.63292
+Run 5: 0.6377
+Run 6: 0.63268
+Run 7: 0.63158
+Run 8: 0.637
+Run 9: 0.6316
+Run 10: 0.63368
+
+Average Equity: 0.634062

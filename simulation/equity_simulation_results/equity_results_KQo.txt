@@ -1,0 +1,14 @@
+Equity simulation results for KQo over 10 runs of 25000 simulations each:
+
+Run 1: 0.6193
+Run 2: 0.6178
+Run 3: 0.62044
+Run 4: 0.61226
+Run 5: 0.61156
+Run 6: 0.60954
+Run 7: 0.61956
+Run 8: 0.61292
+Run 9: 0.6153
+Run 10: 0.61944
+
+Average Equity: 0.615812

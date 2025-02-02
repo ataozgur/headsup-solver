@@ -1,0 +1,14 @@
+Equity simulation results for K9s over 10 runs of 25000 simulations each:
+
+Run 1: 0.5977
+Run 2: 0.60444
+Run 3: 0.59976
+Run 4: 0.6015
+Run 5: 0.6005
+Run 6: 0.5996
+Run 7: 0.59828
+Run 8: 0.59794
+Run 9: 0.59878
+Run 10: 0.60564
+
+Average Equity: 0.600414

@@ -1,0 +1,14 @@
+Equity simulation results for Q3s over 10 runs of 25000 simulations each:
+
+Run 1: 0.50586
+Run 2: 0.51238
+Run 3: 0.50642
+Run 4: 0.50736
+Run 5: 0.51248
+Run 6: 0.51162
+Run 7: 0.50742
+Run 8: 0.51236
+Run 9: 0.51198
+Run 10: 0.50976
+
+Average Equity: 0.509764

@@ -1,0 +1,14 @@
+Equity simulation results for K8o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5604
+Run 2: 0.557
+Run 3: 0.56148
+Run 4: 0.55824
+Run 5: 0.56048
+Run 6: 0.56094
+Run 7: 0.56164
+Run 8: 0.5622
+Run 9: 0.56758
+Run 10: 0.56308
+
+Average Equity: 0.561304

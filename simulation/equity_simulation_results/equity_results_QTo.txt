@@ -1,0 +1,14 @@
+Equity simulation results for QTo over 10 runs of 25000 simulations each:
+
+Run 1: 0.57068
+Run 2: 0.57194
+Run 3: 0.5762
+Run 4: 0.57282
+Run 5: 0.5724
+Run 6: 0.57146
+Run 7: 0.5745
+Run 8: 0.57466
+Run 9: 0.57298
+Run 10: 0.58298
+
+Average Equity: 0.574062

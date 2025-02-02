@@ -1,0 +1,14 @@
+Equity simulation results for T7o over 10 runs of 25000 simulations each:
+
+Run 1: 0.47794
+Run 2: 0.476
+Run 3: 0.47862
+Run 4: 0.48076
+Run 5: 0.47682
+Run 6: 0.479
+Run 7: 0.47536
+Run 8: 0.47756
+Run 9: 0.47582
+Run 10: 0.48072
+
+Average Equity: 0.47786

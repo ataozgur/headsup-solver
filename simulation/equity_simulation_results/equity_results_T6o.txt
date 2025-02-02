@@ -1,0 +1,14 @@
+Equity simulation results for T6o over 10 runs of 25000 simulations each:
+
+Run 1: 0.46386
+Run 2: 0.46074
+Run 3: 0.46206
+Run 4: 0.46308
+Run 5: 0.46662
+Run 6: 0.45316
+Run 7: 0.45818
+Run 8: 0.45764
+Run 9: 0.4603
+Run 10: 0.46008
+
+Average Equity: 0.460572

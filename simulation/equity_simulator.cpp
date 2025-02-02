@@ -305,8 +305,7 @@ private:
 int main() {
     // Define test hands (for example, all A-hands).
     vector<string> testHands = {
-        "AA", "AKo", "AQo", "AJo", "ATo", "A9o", "A8o", "A7o", "A6o", "A5o", "A4o", "A3o", "A2o",
-        "AKs", "AQs", "AJs", "ATs", "A9s", "A8s", "A7s", "A6s", "A5s", "A4s", "A3s", "A2s"
+       "44", "43o", "43s", "42o", "42s", "33", "32o", "32s", "22"
     };
     
     // Number of runs and simulations per run.

@@ -1,0 +1,14 @@
+Equity simulation results for Q2o over 10 runs of 25000 simulations each:
+
+Run 1: 0.47142
+Run 2: 0.47194
+Run 3: 0.46658
+Run 4: 0.46908
+Run 5: 0.47082
+Run 6: 0.4789
+Run 7: 0.47448
+Run 8: 0.4691
+Run 9: 0.47338
+Run 10: 0.46964
+
+Average Equity: 0.471534

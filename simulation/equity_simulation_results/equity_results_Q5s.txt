@@ -1,0 +1,14 @@
+Equity simulation results for Q5s over 10 runs of 25000 simulations each:
+
+Run 1: 0.52346
+Run 2: 0.52206
+Run 3: 0.53182
+Run 4: 0.52442
+Run 5: 0.5273
+Run 6: 0.5243
+Run 7: 0.52872
+Run 8: 0.52582
+Run 9: 0.52068
+Run 10: 0.52816
+
+Average Equity: 0.525674

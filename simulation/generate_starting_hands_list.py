@@ -33,5 +33,5 @@ if __name__ == "__main__":
     for top_card in RANKS:
         hands = starting_hand_lists[top_card]
         print(f"Hands with {top_card} as the highest card:")
-        print(", ".join(hands))
+        print('", "'.join(hands))
         print()

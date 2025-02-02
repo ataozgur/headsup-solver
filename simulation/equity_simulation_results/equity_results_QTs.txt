@@ -1,0 +1,14 @@
+Equity simulation results for QTs over 10 runs of 25000 simulations each:
+
+Run 1: 0.58966
+Run 2: 0.5969
+Run 3: 0.59254
+Run 4: 0.59752
+Run 5: 0.58802
+Run 6: 0.59424
+Run 7: 0.59568
+Run 8: 0.59498
+Run 9: 0.59328
+Run 10: 0.5919
+
+Average Equity: 0.593472

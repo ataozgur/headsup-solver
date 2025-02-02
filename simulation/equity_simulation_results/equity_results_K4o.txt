@@ -1,0 +1,14 @@
+Equity simulation results for K4o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5218
+Run 2: 0.5262
+Run 3: 0.52486
+Run 4: 0.5204
+Run 5: 0.5213
+Run 6: 0.53248
+Run 7: 0.52956
+Run 8: 0.52256
+Run 9: 0.52444
+Run 10: 0.53006
+
+Average Equity: 0.525366

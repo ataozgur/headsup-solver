@@ -1,0 +1,14 @@
+Equity simulation results for J5s over 10 runs of 25000 simulations each:
+
+Run 1: 0.50362
+Run 2: 0.5017
+Run 3: 0.4968
+Run 4: 0.50122
+Run 5: 0.49828
+Run 6: 0.50222
+Run 7: 0.5015
+Run 8: 0.49804
+Run 9: 0.49974
+Run 10: 0.49956
+
+Average Equity: 0.500268

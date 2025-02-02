@@ -1,0 +1,14 @@
+Equity simulation results for 65s over 10 runs of 25000 simulations each:
+
+Run 1: 0.43118
+Run 2: 0.43668
+Run 3: 0.42818
+Run 4: 0.4327
+Run 5: 0.4355
+Run 6: 0.42594
+Run 7: 0.4282
+Run 8: 0.4357
+Run 9: 0.43418
+Run 10: 0.43528
+
+Average Equity: 0.432354

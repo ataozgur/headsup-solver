@@ -1,0 +1,14 @@
+Equity simulation results for K2s over 10 runs of 25000 simulations each:
+
+Run 1: 0.527
+Run 2: 0.53184
+Run 3: 0.53706
+Run 4: 0.53052
+Run 5: 0.53436
+Run 6: 0.5289
+Run 7: 0.53034
+Run 8: 0.53178
+Run 9: 0.53072
+Run 10: 0.52912
+
+Average Equity: 0.531164

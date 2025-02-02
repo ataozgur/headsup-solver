@@ -1,0 +1,14 @@
+Equity simulation results for KTo over 10 runs of 25000 simulations each:
+
+Run 1: 0.59272
+Run 2: 0.59846
+Run 3: 0.59556
+Run 4: 0.59496
+Run 5: 0.59528
+Run 6: 0.59612
+Run 7: 0.59744
+Run 8: 0.60106
+Run 9: 0.59746
+Run 10: 0.6022
+
+Average Equity: 0.597126

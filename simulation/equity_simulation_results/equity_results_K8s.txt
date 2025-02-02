@@ -1,0 +1,14 @@
+Equity simulation results for K8s over 10 runs of 25000 simulations each:
+
+Run 1: 0.587
+Run 2: 0.5859
+Run 3: 0.58068
+Run 4: 0.58742
+Run 5: 0.5809
+Run 6: 0.58654
+Run 7: 0.58812
+Run 8: 0.5875
+Run 9: 0.58534
+Run 10: 0.57998
+
+Average Equity: 0.584938

@@ -1,0 +1,14 @@
+Equity simulation results for 73o over 10 runs of 25000 simulations each:
+
+Run 1: 0.36094
+Run 2: 0.36188
+Run 3: 0.36514
+Run 4: 0.35922
+Run 5: 0.37268
+Run 6: 0.36302
+Run 7: 0.36796
+Run 8: 0.37168
+Run 9: 0.36716
+Run 10: 0.3665
+
+Average Equity: 0.365618

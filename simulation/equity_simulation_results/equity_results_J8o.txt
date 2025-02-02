@@ -1,0 +1,14 @@
+Equity simulation results for J8o over 10 runs of 25000 simulations each:
+
+Run 1: 0.5169
+Run 2: 0.51504
+Run 3: 0.51582
+Run 4: 0.51574
+Run 5: 0.51666
+Run 6: 0.51746
+Run 7: 0.51116
+Run 8: 0.51328
+Run 9: 0.52262
+Run 10: 0.5163
+
+Average Equity: 0.516098

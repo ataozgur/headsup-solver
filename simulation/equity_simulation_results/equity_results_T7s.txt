@@ -1,0 +1,14 @@
+Equity simulation results for T7s over 10 runs of 25000 simulations each:
+
+Run 1: 0.51106
+Run 2: 0.5072
+Run 3: 0.5045
+Run 4: 0.50622
+Run 5: 0.50308
+Run 6: 0.50598
+Run 7: 0.5004
+Run 8: 0.50948
+Run 9: 0.50606
+Run 10: 0.50118
+
+Average Equity: 0.505516

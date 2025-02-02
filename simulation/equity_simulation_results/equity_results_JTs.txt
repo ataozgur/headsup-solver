@@ -1,0 +1,14 @@
+Equity simulation results for JTs over 10 runs of 25000 simulations each:
+
+Run 1: 0.57562
+Run 2: 0.5704
+Run 3: 0.57886
+Run 4: 0.5718
+Run 5: 0.57818
+Run 6: 0.58292
+Run 7: 0.57324
+Run 8: 0.57482
+Run 9: 0.5734
+Run 10: 0.58102
+
+Average Equity: 0.576026

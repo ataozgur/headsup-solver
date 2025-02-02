@@ -1,0 +1,14 @@
+Equity simulation results for T6s over 10 runs of 25000 simulations each:
+
+Run 1: 0.49334
+Run 2: 0.48286
+Run 3: 0.48756
+Run 4: 0.49308
+Run 5: 0.48534
+Run 6: 0.48904
+Run 7: 0.48904
+Run 8: 0.49292
+Run 9: 0.48782
+Run 10: 0.4939
+
+Average Equity: 0.48949

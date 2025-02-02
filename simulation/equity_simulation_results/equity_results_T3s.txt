@@ -1,0 +1,14 @@
+Equity simulation results for T3s over 10 runs of 25000 simulations each:
+
+Run 1: 0.46132
+Run 2: 0.45278
+Run 3: 0.45332
+Run 4: 0.4623
+Run 5: 0.45788
+Run 6: 0.45278
+Run 7: 0.45724
+Run 8: 0.4575
+Run 9: 0.45934
+Run 10: 0.45922
+
+Average Equity: 0.457368

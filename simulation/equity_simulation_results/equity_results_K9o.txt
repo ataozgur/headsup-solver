@@ -1,0 +1,14 @@
+Equity simulation results for K9o over 10 runs of 25000 simulations each:
+
+Run 1: 0.57828
+Run 2: 0.57598
+Run 3: 0.5775
+Run 4: 0.57994
+Run 5: 0.579
+Run 6: 0.58044
+Run 7: 0.5801
+Run 8: 0.57602
+Run 9: 0.57856
+Run 10: 0.57946
+
+Average Equity: 0.578528

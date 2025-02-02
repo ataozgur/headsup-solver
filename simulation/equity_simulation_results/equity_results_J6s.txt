@@ -1,0 +1,14 @@
+Equity simulation results for J6s over 10 runs of 25000 simulations each:
+
+Run 1: 0.506
+Run 2: 0.50304
+Run 3: 0.50584
+Run 4: 0.50812
+Run 5: 0.50852
+Run 6: 0.51052
+Run 7: 0.50158
+Run 8: 0.51414
+Run 9: 0.50252
+Run 10: 0.50416
+
+Average Equity: 0.506444
